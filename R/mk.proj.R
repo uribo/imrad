@@ -34,7 +34,7 @@ mk.proj <- function(){
   dir.create("Analysis")
     dir.create("Analysis/Data")
       dir.create("Analysis/Data/Original")
-      dir.create("Analysi/Data/Input")
+      dir.create("Analysis/Data/Input")
       file.create("Analysis/Data/AvailableData.md")
     dir.create("Analysis/Figure")
     dir.create("Analysis/Table")

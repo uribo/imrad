@@ -1,4 +1,4 @@
-Imrad
+imrad
 =====
 
 Enhanced your research project.
@@ -7,13 +7,22 @@ Enhanced your research project.
 
 ```{r}
 install.package("devtools")
-library("devtools")
+library(devtools)
 ```
 
 ```{r}
 devtools::install_github("uribo/imrad")
 ```
 
+## Usage
+
+```{r}
+library(imrad)
+```
+
+### mk.proj(): Create New Research Project Directory
+
+
 ## Bugs or feature requests
 
-[Issue tracker](issues)
+[Issues tracker](https://github.com/uribo/imrad/issues)
